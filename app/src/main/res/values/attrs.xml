@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <declare-styleable name="FanView">
+        <!--栅格数量-->
         <attr name="grid" format="integer"></attr>
+        <!--最大值-->
         <attr name="max" format="integer"></attr>
+        <!--当前值-->
         <attr name="current" format="integer"></attr>
+        <!--起始颜色-->
         <attr name="colorStart" format="color"></attr>
+        <!--终止颜色-->
         <attr name="colorEnd" format="color"></attr>
+        <!--默认颜色-->
         <attr name="colorDefault" format="color"></attr>
+        <!--栅格之间空白角度-->
         <attr name="space" format="float"></attr>
+        <!--当前值字号大小-->
         <attr name="textSizeCurrent" format="dimension"></attr>
+        <!--提示文字字号大小-->
         <attr name="textSizeWord" format="dimension"></attr>
+        <!--起始值文字字号大小-->
         <attr name="textSize" format="dimension"></attr>
+        <!--提示文字内容-->
         <attr name="word" format="reference|string"></attr>
     </declare-styleable>
 </resources>

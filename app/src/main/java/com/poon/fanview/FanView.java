@@ -296,12 +296,12 @@ public class FanView extends View {
         valueAnimator.start();
     }
 
-    private void setCurrent(int value, boolean ani) {
+    public void setCurrent(int value, boolean ani) {
         if (ani) {
             setCurrent(value);
         } else {
-            this.current = current;
-            mProgress = Math.min(current, max) * 1f / max * mGridTotal;
+            this.current = value;
+            mProgress = Math.min(value, max) * 1f / max * mGridTotal;
             invalidate();
         }
     }
