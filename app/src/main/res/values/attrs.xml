@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FanView">
+        <attr name="grid" format="integer"></attr>
+        <attr name="max" format="integer"></attr>
+        <attr name="current" format="integer"></attr>
+        <attr name="colorStart" format="color"></attr>
+        <attr name="colorEnd" format="color"></attr>
+        <attr name="colorDefault" format="color"></attr>
+        <attr name="space" format="float"></attr>
+        <attr name="textSizeCurrent" format="dimension"></attr>
+        <attr name="textSizeWord" format="dimension"></attr>
+        <attr name="textSize" format="dimension"></attr>
+        <attr name="word" format="reference|string"></attr>
+    </declare-styleable>
+</resources>
